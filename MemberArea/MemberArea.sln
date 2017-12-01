@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FDC9DC89
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{F4D7336F-A3CE-4903-ABD7-FFE2DCD4A7CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemberArea.Core.Db", "MemberArea.Core.Db\MemberArea.Core.Db.csproj", "{D95DB469-B9EC-4F69-BEF2-673BA91226BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +23,15 @@ Global
 		{78E8D9C4-8246-41DE-A1B4-CD565D0653EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78E8D9C4-8246-41DE-A1B4-CD565D0653EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78E8D9C4-8246-41DE-A1B4-CD565D0653EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D95DB469-B9EC-4F69-BEF2-673BA91226BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D95DB469-B9EC-4F69-BEF2-673BA91226BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D95DB469-B9EC-4F69-BEF2-673BA91226BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D95DB469-B9EC-4F69-BEF2-673BA91226BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D95DB469-B9EC-4F69-BEF2-673BA91226BC} = {0375A9B0-8A2D-4D8C-BA20-C70CD4928BCD}
 	EndGlobalSection
 EndGlobal
